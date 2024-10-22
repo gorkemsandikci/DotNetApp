@@ -1,0 +1,42 @@
+# .NET Core
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+
+# ASP.NET
+wwwroot/lib/
+wwwroot/css/
+wwwroot/js/
+wwwroot/images/
+*.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build results
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Secrets
+appsettings.Development.json
+appsettings.Production.json
