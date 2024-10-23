@@ -6,9 +6,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            ArraysListsCollections.units();
-            displayUserInfo("Gorkem", 30, 1.75, true);
-
+            /*
             Console.Write("Enter first number: ");
             int a = Convert.ToInt32(Console.ReadLine());
             checkNumber(a);
@@ -22,6 +20,13 @@ namespace MyApp
             Console.WriteLine($"Sum: {Add(a, b)}");
             Console.WriteLine($"Is first number greater than second number?: {isGreater(a, b)}");
 
+            ArraysListsCollections.units();
+            displayUserInfo("Gorkem", 30, 1.75, true);
+            */
+
+            //AdvancedCollections.RunExamples();
+            //AdvancedCollections.LinqExamples();
+            //OOPFundamentals.DisplayCar();
         }
 
         public static string plateNumber(bool choice)
